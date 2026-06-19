@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A1C2A012B00000100111111 /* CETWordsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C2A002B00000100111111 /* CETWordsApp.swift */; };
+		8A1C2A032B00000100111111 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C2A022B00000100111111 /* ContentView.swift */; };
+		8A1C2A052B00000100111111 /* WordBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C2A042B00000100111111 /* WordBank.swift */; };
+		8A1C2A172B00000100111111 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C2A162B00000100111111 /* Models.swift */; };
+		8A1C2A192B00000100111111 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C2A182B00000100111111 /* AppSettings.swift */; };
+		8A1C2A1B2B00000100111111 /* ProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C2A1A2B00000100111111 /* ProgressStore.swift */; };
+		8A1C2A1D2B00000100111111 /* StudyEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C2A1C2B00000100111111 /* StudyEngine.swift */; };
+		8A1C2A2D2B00000100111111 /* LearningPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C2A2C2B00000100111111 /* LearningPolicy.swift */; };
+		8A1C2A1F2B00000100111111 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C2A1E2B00000100111111 /* TodayView.swift */; };
+		8A1C2A212B00000100111111 /* WordCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C2A202B00000100111111 /* WordCardView.swift */; };
+		8A1C2A232B00000100111111 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C2A222B00000100111111 /* ReviewView.swift */; };
+		8A1C2A252B00000100111111 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C2A242B00000100111111 /* LibraryView.swift */; };
+		8A1C2A272B00000100111111 /* WordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C2A262B00000100111111 /* WordDetailView.swift */; };
+		8A1C2A292B00000100111111 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C2A282B00000100111111 /* StatsView.swift */; };
+		8A1C2A2B2B00000100111111 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C2A2A2B00000100111111 /* SettingsView.swift */; };
+		8A1C2A312B00000100111111 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1C2A302B00000100111111 /* QuizView.swift */; };
+		8A1C2A112B00000100111111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1C2A102B00000100111111 /* Assets.xcassets */; };
+		8A1C2A132B00000100111111 /* Resources/VocabSources/cet4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8A1C2A122B00000100111111 /* Resources/VocabSources/cet4.txt */; };
+		8A1C2A152B00000100111111 /* Resources/VocabSources/cet6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8A1C2A142B00000100111111 /* Resources/VocabSources/cet6.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A1C2A002B00000100111111 /* CETWordsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CETWordsApp.swift; sourceTree = "<group>"; };
+		8A1C2A022B00000100111111 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A1C2A042B00000100111111 /* WordBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBank.swift; sourceTree = "<group>"; };
+		8A1C2A162B00000100111111 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		8A1C2A182B00000100111111 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		8A1C2A1A2B00000100111111 /* ProgressStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressStore.swift; sourceTree = "<group>"; };
+		8A1C2A1C2B00000100111111 /* StudyEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyEngine.swift; sourceTree = "<group>"; };
+		8A1C2A2C2B00000100111111 /* LearningPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningPolicy.swift; sourceTree = "<group>"; };
+		8A1C2A1E2B00000100111111 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/TodayView.swift; sourceTree = "<group>"; };
+		8A1C2A202B00000100111111 /* WordCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/WordCardView.swift; sourceTree = "<group>"; };
+		8A1C2A222B00000100111111 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ReviewView.swift; sourceTree = "<group>"; };
+		8A1C2A242B00000100111111 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/LibraryView.swift; sourceTree = "<group>"; };
+		8A1C2A262B00000100111111 /* WordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/WordDetailView.swift; sourceTree = "<group>"; };
+		8A1C2A282B00000100111111 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/StatsView.swift; sourceTree = "<group>"; };
+		8A1C2A2A2B00000100111111 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/SettingsView.swift; sourceTree = "<group>"; };
+		8A1C2A302B00000100111111 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/QuizView.swift; sourceTree = "<group>"; };
+		8A1C2A072B00000100111111 /* CETWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CETWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1C2A102B00000100111111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A1C2A122B00000100111111 /* Resources/VocabSources/cet4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resources/VocabSources/cet4.txt; sourceTree = "<group>"; };
+		8A1C2A142B00000100111111 /* Resources/VocabSources/cet6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resources/VocabSources/cet6.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A1C2A082B00000100111111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A1C29F92B00000100111111 = {
+			isa = PBXGroup;
+			children = (
+				8A1C29FE2B00000100111111 /* CETWords */,
+				8A1C2A092B00000100111111 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A1C29FE2B00000100111111 /* CETWords */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C2A002B00000100111111 /* CETWordsApp.swift */,
+				8A1C2A022B00000100111111 /* ContentView.swift */,
+				8A1C2A162B00000100111111 /* Models.swift */,
+				8A1C2A042B00000100111111 /* WordBank.swift */,
+				8A1C2A182B00000100111111 /* AppSettings.swift */,
+				8A1C2A1A2B00000100111111 /* ProgressStore.swift */,
+				8A1C2A1C2B00000100111111 /* StudyEngine.swift */,
+				8A1C2A2C2B00000100111111 /* LearningPolicy.swift */,
+				8A1C2A1E2B00000100111111 /* TodayView.swift */,
+				8A1C2A202B00000100111111 /* WordCardView.swift */,
+				8A1C2A222B00000100111111 /* ReviewView.swift */,
+				8A1C2A242B00000100111111 /* LibraryView.swift */,
+				8A1C2A262B00000100111111 /* WordDetailView.swift */,
+				8A1C2A282B00000100111111 /* StatsView.swift */,
+				8A1C2A2A2B00000100111111 /* SettingsView.swift */,
+				8A1C2A302B00000100111111 /* QuizView.swift */,
+				8A1C2A102B00000100111111 /* Assets.xcassets */,
+				8A1C2A122B00000100111111 /* Resources/VocabSources/cet4.txt */,
+				8A1C2A142B00000100111111 /* Resources/VocabSources/cet6.txt */,
+			);
+			path = CETWords;
+			sourceTree = "<group>";
+		};
+		8A1C2A092B00000100111111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A1C2A072B00000100111111 /* CETWords.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A1C29FD2B00000100111111 /* CETWords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1C2A0F2B00000100111111 /* Build configuration list for PBXNativeTarget "CETWords" */;
+			buildPhases = (
+				8A1C29FA2B00000100111111 /* Sources */,
+				8A1C2A082B00000100111111 /* Frameworks */,
+				8A1C2A0A2B00000100111111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CETWords;
+			productName = CETWords;
+			productReference = 8A1C2A072B00000100111111 /* CETWords.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A1C29FA2B00000100999999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					8A1C29FD2B00000100111111 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 8A1C29FB2B00000100111111 /* Build configuration list for PBXProject "CETWords" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"zh-Hans",
+				en,
+				Base,
+			);
+			mainGroup = 8A1C29F92B00000100111111;
+			productRefGroup = 8A1C2A092B00000100111111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A1C29FD2B00000100111111 /* CETWords */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A1C2A0A2B00000100111111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1C2A112B00000100111111 /* Assets.xcassets in Resources */,
+				8A1C2A132B00000100111111 /* Resources/VocabSources/cet4.txt in Resources */,
+				8A1C2A152B00000100111111 /* Resources/VocabSources/cet6.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A1C29FA2B00000100111111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1C2A012B00000100111111 /* CETWordsApp.swift in Sources */,
+				8A1C2A032B00000100111111 /* ContentView.swift in Sources */,
+				8A1C2A172B00000100111111 /* Models.swift in Sources */,
+				8A1C2A052B00000100111111 /* WordBank.swift in Sources */,
+				8A1C2A192B00000100111111 /* AppSettings.swift in Sources */,
+				8A1C2A1B2B00000100111111 /* ProgressStore.swift in Sources */,
+				8A1C2A1D2B00000100111111 /* StudyEngine.swift in Sources */,
+				8A1C2A2D2B00000100111111 /* LearningPolicy.swift in Sources */,
+				8A1C2A1F2B00000100111111 /* TodayView.swift in Sources */,
+				8A1C2A212B00000100111111 /* WordCardView.swift in Sources */,
+				8A1C2A232B00000100111111 /* ReviewView.swift in Sources */,
+				8A1C2A252B00000100111111 /* LibraryView.swift in Sources */,
+				8A1C2A272B00000100111111 /* WordDetailView.swift in Sources */,
+				8A1C2A292B00000100111111 /* StatsView.swift in Sources */,
+				8A1C2A2B2B00000100111111 /* SettingsView.swift in Sources */,
+				8A1C2A312B00000100111111 /* QuizView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A1C2A0B2B00000100111111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A1C2A0C2B00000100111111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A1C2A0D2B00000100111111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 355GCQ44GW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "四六级背词";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ha.CETWords;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8A1C2A0E2B00000100111111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 355GCQ44GW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "四六级背词";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ha.CETWords;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A1C29FB2B00000100111111 /* Build configuration list for PBXProject "CETWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1C2A0B2B00000100111111 /* Debug */,
+				8A1C2A0C2B00000100111111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1C2A0F2B00000100111111 /* Build configuration list for PBXNativeTarget "CETWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1C2A0D2B00000100111111 /* Debug */,
+				8A1C2A0E2B00000100111111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A1C29FA2B00000100999999 /* Project object */;
+}
